@@ -1,0 +1,14 @@
+M = 1
+a = 1
+b = 0
+t = a + b
+print("Month", "Adults.R", "Baby.R", "Total.R")
+print(M,"\t|", a,"\t|", b,"\t|", t)
+
+while t <= 500 :
+    b = a
+    a = t
+    t = a + b
+    M += 1
+
+    print(M,"\t|", a,"\t|", b,"\t|", t)
